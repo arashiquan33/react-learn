@@ -13,7 +13,7 @@ ADD *.tar.gz /usr/opt/reactwebapp
 
 WORKDIR /usr/opt/reactwebapp
 
-CMD [ "/usr/bin/npm","start"]
+CMD [ "npm","start"]
 
 EXPOSE 3000
 
