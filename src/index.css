@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.tc-loading .tc-loading-point{
+  animation: pointMove linear 2s infinite    ;
+  -webkit-animation: pointMove linear 2s infinite    ;
+}
+
+
+@keyframes pointMove{
+  0%{
+     transform: rotate(0deg)    ;
+     -webkit-transform: rotate(0deg)    ;
+     -moz-transform: rotate(0deg)    ;
+     -ms-transform: rotate(0deg)    ;
+     -o-transform: rotate(0deg)    ;
+ }
+  100%{
+    transform: rotate(360deg)    ;
+    -webkit-transform: rotate(360deg)    ;
+    -moz-transform: rotate(360deg)    ;
+    -ms-transform: rotate(360deg)    ;
+    -o-transform: rotate(360deg)    ;
+}
+}
