@@ -35,11 +35,11 @@ export class TcLoading extends Component{
            let _render;
            if(this.props.visible){
               _render=(
-                         <div class="tc-loading" ref={this.boxRef} style={{width:'40px',height:'40px'}}>
-                             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                         <div className="tc-loading" ref={this.boxRef} style={{width:'100px',height:'100px'}}>
+                             <svg width="100px" height="80px" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="18" cy="18" r="18" stroke="black" strokeWidth="2" fill="none">
                                 </circle>
-                                <circle class="tc-loading-point" cx="0" cy="18" r="2" stroke="red" strokeWidth="1" fill="red">
+                                <circle cx="0" cy="18" r="2" stroke="red" strokeWidth="1" fill="red">
                                 </circle>     
                              </svg>
                              请稍后...
